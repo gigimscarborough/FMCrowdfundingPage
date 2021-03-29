@@ -219,5 +219,17 @@ span{
     padding: 0;
     margin-left:-8px;
 }
+#about{
+    padding: 3em 3em;
+}
 
+#about h3{
+    font-size: 20px;
+    margin-bottom: 1.5em;
+}
 
+#about > .details{
+    color: hsl(0, 0%, 48%);
+    line-height: 1.5;
+    margin-bottom: 1em; 
+}

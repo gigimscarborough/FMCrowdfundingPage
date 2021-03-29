@@ -25,6 +25,7 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    font-family: 'Commissioner', sans-serif;
 }
 
 body {
@@ -103,7 +104,21 @@ input, select {
 
 
 #image-banner{
-    background-image: url(../images/image-hero-desktop.jpg);
     width: 100vw;
-    height: 30vh;
+    display: flex;
+    justify-content: center;
+
+}
+#image-banner > img{
+    width: 100%;
+}
+
+#navbar{
+    position:absolute;
+    width: 100%;
+    padding: 3em 10em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }

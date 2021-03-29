@@ -101,6 +101,9 @@ hr {
 input, select {
     vertical-align:middle;
 }
+span{
+    color: hsl(0, 0%, 48%);
+}
 
 
 #image-banner{
@@ -122,3 +125,99 @@ input, select {
     justify-content: space-between;
     align-items: flex-start;
 }
+
+#navbar > span > a{
+    color:white;
+    text-decoration: none;
+    font-size: 13.8px;
+}
+#navbar > span > a:nth-child(2){
+    margin: 0 2em;
+}
+
+#product-body{
+    display:flex;
+    justify-content: center;
+    padding: 0 25vw;
+    background-color: whitesmoke;
+}
+.product{
+    margin-top: -5.6em;
+
+}
+.product > div{
+    background-color: white;
+    margin-bottom: 5em;
+    border-radius: 8px;
+    padding: 0 3em;
+}
+
+.header-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header-div >img:first-of-type{
+    margin-top: -25px;
+    height:50px;
+    width:50px;
+    margin-bottom: 2em;
+}
+.header-div > h2{
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+.header-div > span{
+    margin-bottom: 2.5em;
+}
+.header-div > span:last-of-type{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-div > span:last-of-type > button:first-of-type{
+    box-sizing: border-box;
+    color: white;
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 55px;
+    width: 12.5em;
+    height:3.2em;
+    font-family: 'Commissioner', sans-serif;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    
+}
+.header-div > span:last-of-type > button:last-of-type{
+    box-sizing: border-box;
+    color: gray;
+    background-color:whitesmoke;
+    border-radius: 55px;
+    width: 11em;
+    height:3.2em;
+    font-family: 'Commissioner', sans-serif;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    
+}
+.header-div > span:last-of-type > button:last-of-type > img{
+    height:3.2em;
+    width:3.2em;
+}
+.header-div > span:last-of-type > button:last-of-type > span{
+    width: 100%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-left:-8px;
+}
+
+
